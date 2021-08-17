@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 70vh;
+    background-image: url('../img/slide-1.jpg');
+    background-size: 100%;
+    position: relative;
+}
+
+.header-content {
+    width: 100%;
+    height: 100%;
+    background-color: #000000ad;
+}
+
+.navbar {
+    display: flex;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.navbar div {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo span {
+    color: orangered;
+}
+
+.menu i {
+    margin-left: 10px;
+    transition: 1s;
+}
+
+.menu i:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.menu:hover i {
+    color: orangered;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.text span {
+    color: orangered;
+}
+
+.text p {
+    line-height: 1.6;
+}
+
+.header-button {
+    padding: 10px;
+}
+
+.header-button button {
+    width: 140px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 15px;
+    transition: .6s;
+}
+
+.header-button button:hover {
+    background: orangered;
+    cursor: pointer;
+}
+
+.servies {
+    display: flex;
+    width: 85%;
+    margin: 70px auto 30px;
+}
+
+.servies-item {
+    width: 25%;
+    text-align: center;
+    margin: 0 10px 0;
+}
+
+.icon {
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.icon span {
+    width: 100%;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px 25px;
+    border: 2px solid black;
+    font-size: 40px;
+    color: orangered;
+}
+
+.servies-item h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.servies-item p {
+    line-height: 1.6;
+}
+
+.our {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.our h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 100px 0 10px;
+}
+
+.our p {
+    line-height: 1.6;
+}
+
+.our span {
+    color: orangered;
+}
+
+.gallary {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.gallary img {
+    width: 33.33%;
+}
+
+.team-member {
+    display: flex;
+    width: 85%;
+    margin: 50px auto 40px;
+    text-align: center;
+}
+
+.team-member .person {
+    width: 25%;
+}
+
+.socila-media-icon {
+    font-size: 25px;
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.socila-media-icon span {
+    border-radius: 50%;
+    padding: 6px 10px;
+    margin: 0 5px;
+    background-color: gray;
+    transition: .8s;
+}
+
+.socila-media-icon span:hover {
+    background-color: orangered;
+    cursor: pointer;
+}
